@@ -10,4 +10,5 @@ while is_answer:
     for word in words:
         is_answer = word == input(f'{word}: ')
         if not is_answer:
+            print('틀렸습니다.')
             break
